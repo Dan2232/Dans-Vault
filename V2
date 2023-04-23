@@ -1,0 +1,176 @@
+--[[
+
+
+████████▄     ▄████████ ███▄▄▄▄      ▄████████       ▄█    █▄     ▄████████ ███    █▄   ▄█           ███     
+███   ▀███   ███    ███ ███▀▀▀██▄   ███    ███      ███    ███   ███    ███ ███    ███ ███       ▀█████████▄ 
+███    ███   ███    ███ ███   ███   ███    █▀       ███    ███   ███    ███ ███    ███ ███          ▀███▀▀██ 
+███    ███   ███    ███ ███   ███   ███             ███    ███   ███    ███ ███    ███ ███           ███   ▀ 
+███    ███ ▀███████████ ███   ███ ▀███████████      ███    ███ ▀███████████ ███    ███ ███           ███     
+███    ███   ███    ███ ███   ███          ███      ███    ███   ███    ███ ███    ███ ███           ███     
+███   ▄███   ███    ███ ███   ███    ▄█    ███      ███    ███   ███    ███ ███    ███ ███▌    ▄     ███     
+████████▀    ███    █▀   ▀█   █▀   ▄████████▀        ▀██████▀    ███    █▀  ████████▀  █████▄▄██    ▄████▀   
+                                                                                       ▀                     
+
+]]
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Dans Vault V2", "Ocean")
+
+--Aiming Options
+local Aiming = Window:NewTab("Aiming")
+local LockDots = Aiming:NewSection("LockDots")
+
+
+LockDots:NewButton("Green LockDot", "Executes a green lockdot", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/lock-dot/main/lock'))()
+end)
+
+LockDots:NewButton("Blue LockDot", "Executes a blue lockdot", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/blue-lockdot/main/lock'))()
+end)
+
+LockDots:NewButton("Pink LockDot", "Executes a Pink lockdot", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/pink-lockdot/main/lock'))()
+end)
+
+LockDots:NewButton("Black LockDot", "Executes a Black lockdot", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/black-lockdot/main/lock'))()
+end)
+
+local CamLocks = Aiming:NewSection("CamLocks")
+
+CamLocks:NewButton("Dans CamLock", "Executes Dans CamLock", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/camlock/main/cam'))()
+end)
+
+CamLocks:NewButton("More camlocks coming soon", "more soon", function()
+    loadstring(game:HttpGet(''))()
+end)
+
+local Streamables = Aiming:NewSection("Streamables")
+
+Streamables:NewButton("Earths Streamable", "Executes Earths Streamable", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/earths-camlock/main/cam'))()
+end)
+
+Streamables:NewButton("Streamable 1", "Executes a Streamable lock ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/streamable-1/main/streamable'))()
+end)
+
+Streamables:NewButton("FPS GUI ", "Executes FPS GUI ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/fps-gui-/main/fps%20gui'))()
+end)
+
+local SilentAims = Aiming:NewSection("SilentAims")
+
+SilentAims:NewButton("Closest Part silent", "Executes a silent aim", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/Closest-part-silent/main/silent'))()
+end)
+
+SilentAims:NewButton("not sure how works (q)", "Executes a silent aim", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/silent-aim/main/silent'))()
+end)
+
+SilentAims:NewButton("Faded Silent Aim", "Executes a silent aim", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/faded-silent-aim/main/faded'))()
+end)
+
+
+--Admin Guis
+local AdminGuis = Window:NewTab("AdminGuis")
+local AdminGuis = AdminGuis:NewSection("AdminGuis")
+
+
+AdminGuis:NewButton("SwagMode", "Executes swagmode script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+AdminGuis:NewButton("Faded", "Executes Faded script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic'))()
+end)
+
+AdminGuis:NewButton("Nova", "Executes Nova script", function()
+    loadstring(game:HttpGet('https://icxy.xyz/NovaGui/NovaGui'))()
+end)
+
+AdminGuis:NewButton("Zapped V2", "Executes Zapped V2 script", function()
+    loadstring(game:HttpGet('https://ekso.gq/raw/relases/zapped.lua'))()
+end)
+
+AdminGuis:NewButton("RayX", "Executes RayX script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+AdminGuis:NewButton("LoraX", "Executes LoraX script", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/EczArTqy'))()
+end)
+
+
+--AntiLocks
+local AntiLocks = Window:NewTab("AntiLocks")
+local AntiLocks = AntiLocks:NewSection("AntiLocks")
+
+
+AntiLocks:NewButton("Walkable Desync", "Executes a desync antilock", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/walkable-anti/main/anti'))()
+end)
+
+AntiLocks:NewButton("Sky aa", "Executes a antilock that makes them look up", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/sky-aa-anti/main/sky'))()
+end)
+
+AntiLocks:NewButton("jumpable anti", "Executes a antilock", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/jumpable-anti/main/anti'))()
+end)
+
+
+--Aim Viewers
+local AimViewers = Window:NewTab("AimViewers")
+local AimViewers = AimViewers:NewSection("AimViewers")
+
+
+AimViewers:NewButton("VinGUI", "Executes a aim and pov viewer", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Nosssa/NossLock/main/VinGUI'))()
+end)
+
+AimViewers:NewButton("RayCodeX", "Executes a aim and pov viewer", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Aim%20Viewer'))()
+end)
+
+
+--Resolvers
+local Resolvers = Window:NewTab("Resolvers")
+local Resolvers = Resolvers:NewSection("Resolvers")
+
+
+Resolvers:NewButton("Best Resolver", "Executes a antilock resolver i use", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/anti-resolver/main/resolver'))()
+end)
+
+Resolvers:NewButton("another Resolver", "Executes a antilock resolver", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/another-resolver/main/resolver'))()
+end)
+
+
+--Misc
+local Misc = Window:NewTab("Misc")
+local Misc = Misc:NewSection("Misc")
+
+Misc:NewButton("Fly (X)", "Executes a fly script use x", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/fly-script/main/fly'))()
+end)
+
+Misc:NewButton("Fake Macro (M)", "Executes a fake macro use m to go ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/Fake-Macro/main/Macro'))()
+end)
+
+Misc:NewButton("Memory Spoofer", "Hides mem so people cant see your ingected", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dan2232/mem-spoofer/main/mem'))()
+end)
+
+local AnimationPack = Misc:NewSection("AnimationPack")
+
+AnimationPack:NewButton("Fake animation pack)", "this gives you the normal AnimationPack", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/sashkotashko/DaHoodStuff/main/AnimationGamepass'))()
+end)
